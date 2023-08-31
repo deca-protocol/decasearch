@@ -143,25 +143,25 @@ class App extends React.Component {
     const info = await ipfs.id()
     console.log('IPFS node ready with id ' + info.id)
     try{
-       await ipfs.swarm.connect('/dns4/node5.deca.green/tcp/443/wss/p2p/QmZL1otpiCzWMEJTHXbQ5Hb4aFE7TKLjAuuBAAet1WAgtD');
+       await ipfs.swarm.connect('/dns4/node5.deca.eco/tcp/443/wss/p2p/QmZL1otpiCzWMEJTHXbQ5Hb4aFE7TKLjAuuBAAet1WAgtD');
     }catch (error)
     {
       console.log(error)
     } 
     try{
-       await ipfs.swarm.connect('/dns4/node0.deca.green/tcp/443/wss/p2p/Qmd4Cv2fNwixP6cabEnTVFkF57GUGD6VBEcDhUkqHPG4X9');
+       await ipfs.swarm.connect('/dns4/node0.deca.eco/tcp/443/wss/p2p/Qmd4Cv2fNwixP6cabEnTVFkF57GUGD6VBEcDhUkqHPG4X9');
     }catch (error)
     {
       console.log(error)
     } 
     try{
-       await ipfs.swarm.connect('/dns4/node4.deca.green/tcp/443/wss/p2p/QmQAbhxMCjQpNrdU3xJYZjjmd7bHXUGcLx2o7wfpvvzJvc');
+       await ipfs.swarm.connect('/dns4/node4.deca.eco/tcp/443/wss/p2p/QmQAbhxMCjQpNrdU3xJYZjjmd7bHXUGcLx2o7wfpvvzJvc');
     }catch (error)
     {
       console.log(error)
     } 
     try{
-       await ipfs.swarm.connect("/dns4/node2.deca.green/tcp/443/wss/p2p/QmfBASmqe3Az9AUjCxx3dtomSmbZEiJCsXusPxznjNnjU5");
+       await ipfs.swarm.connect("/dns4/node2.deca.eco/tcp/443/wss/p2p/QmfBASmqe3Az9AUjCxx3dtomSmbZEiJCsXusPxznjNnjU5");
     }catch (error)
     {
       console.log(error)
